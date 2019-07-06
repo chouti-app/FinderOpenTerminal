@@ -206,6 +206,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				fr,
@@ -290,13 +291,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = UYW9ZSKZAQ;
 				INFOPLIST_FILE = "Open Terminal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.qparis.openterminal;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chouti.open-terminal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -312,13 +313,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = UYW9ZSKZAQ;
 				INFOPLIST_FILE = "Open Terminal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.qparis.openterminal;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chouti.open-terminal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -334,14 +335,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = UYW9ZSKZAQ;
 				INFOPLIST_FILE = "Open Terminal Finder Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.qparis.openterminal.Open-Terminal-Finder-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chouti.open-terminal-finder-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -358,14 +359,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = UYW9ZSKZAQ;
 				INFOPLIST_FILE = "Open Terminal Finder Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.qparis.openterminal.Open-Terminal-Finder-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chouti.open-terminal-finder-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

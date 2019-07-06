@@ -26,7 +26,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>com.qparis.openterminal.url</string>
+			<string>com.chouti.open-terminal.url</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>terminal</string>
@@ -40,7 +40,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 QP. All rights reserved.</string>
+	<string>Copyright © 2019 ChouTi. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

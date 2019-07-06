@@ -12,7 +12,7 @@ import Darwin
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         NSLog("Installing Finder extension")
-        SwiftySystem.execute(path: "/usr/bin/pluginkit", arguments: ["-e", "use", "-i", "fr.qparis.openterminal.Open-Terminal-Finder-Extension"])
+        SwiftySystem.execute(path: "/usr/bin/pluginkit", arguments: ["-e", "use", "-i", "com.chouti.open-terminal.Open-Terminal-Finder-Extension"])
         SwiftySystem.execute(path: "/usr/bin/killall",arguments: ["Finder"])
         helpMe()
         exit(0)
@@ -39,7 +39,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     private func helpMe() {
-        helpMe(customMessage: "This application adds a \"Open a terminal\" item in every Finder context menus.\n\n(c) Quentin PÂRIS 2018 - http://quentin.paris")
+        helpMe(customMessage: "This application adds a \"Open Terminal\" item in Finder context menus.")
     }
 }
 

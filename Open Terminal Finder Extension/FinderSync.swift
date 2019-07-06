@@ -26,8 +26,8 @@ class FinderSync: FIFinderSync {
     
     override func menu(for menu: FIMenuKind) -> NSMenu? {
         // Produce a menu for the extension.
-        let menu = NSMenu(title: NSLocalizedString("Open a terminal", comment:"Open a terminal"))
-        menu.addItem(withTitle:  NSLocalizedString("Open a terminal", comment:"Open a terminal"), action: #selector(FinderSync.openTerminal(sender:)), keyEquivalent: "")
+        let menu = NSMenu(title: NSLocalizedString("Open Terminal", comment:"Open Terminal"))
+        menu.addItem(withTitle:  NSLocalizedString("Open Terminal", comment:"Open Terminal"), action: #selector(FinderSync.openTerminal(sender:)), keyEquivalent: "")
         return menu
     }
     
