@@ -1,9 +1,6 @@
-# FinderOpenTerminal
-Open Terminal contextual menu for Finder
+# OpenTerminal
+"Open Terminal" contextual menu for Finder.
 
-Latest version is tested from OSX 10.13 (High Sierra) to 10.14 (Mojave)
+Support macOS 10.13 (High Sierra), macOS 10.14 (Mojave) and macOS 10.15 (Catalina)
 
-See http://openterminal.quentin.paris to get more details or to download binaries 
-
-# Screenshot 
-![Finder Open Terminal](http://openterminal.quentin.paris/openterminal_screenshot.png)
+<img src="./Screenshots/Light.png" width="320"><img src="./Screenshots/Dark.png" width="320">
