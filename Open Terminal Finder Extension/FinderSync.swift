@@ -32,9 +32,9 @@ class FinderSync: FIFinderSync {
     }
     
     @IBAction func openTerminal(sender: AnyObject?) {
-        let target = FIFinderSyncController.default().targetedURL()
-        
-        guard let targetPath = target?.path.replacingOccurrences(of: " ", with: "%20"), let url = URL(string:"terminal://"+targetPath) else {
+        let defaultController = FIFinderSyncController.default()
+        let target = defaultController.selectedItemURLs()?.first ?? defaultController.targetedURL()
+        guard let targetPath = target?.path.replacingOccurrences(of: " ", with: "%20"), let url = URL(string:"terminal://" + targetPath) else {
             return
         }
         NSWorkspace.shared.open(url)

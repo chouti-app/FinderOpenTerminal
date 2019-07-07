@@ -11,7 +11,6 @@ import Darwin
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        NSLog("Installing Finder extension")
         SwiftySystem.execute(path: "/usr/bin/pluginkit", arguments: ["-e", "use", "-i", "com.chouti.open-terminal.Open-Terminal-Finder-Extension"])
         SwiftySystem.execute(path: "/usr/bin/killall",arguments: ["Finder"])
         helpMe()
@@ -26,7 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 helpMe(customMessage: "The specified directory does not exist")
             }
         }
-        
         exit(0);
     }
 
