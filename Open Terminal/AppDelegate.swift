@@ -37,7 +37,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     private func helpMe() {
-        helpMe(customMessage: "This application adds a \"Open Terminal\" item in Finder context menus.")
+        helpMe(customMessage: "This application adds a \"Open in Terminal\" item in Finder context menus.")
     }
 }
 
